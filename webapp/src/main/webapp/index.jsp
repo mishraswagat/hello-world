@@ -1,37 +1,44 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to eSwasthya Odisha</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to eSwasthya Odisha</h1>
+        <nav>
+            <ul>
+                <li><a href="index.jsp">Home</a></li>
+                <li><a href="about.jsp">About Us</a></li>
+                <li><a href="services.jsp">Services</a></li>
+                <li><a href="contact.jsp">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to eSwasthya Odisha. We are dedicated to providing healthcare services to the people of Odisha.</p>
+        </section>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Healthcare Consultation</li>
+                <li>Medical Records Management</li>
+                <li>Emergency Services</li>
+                <li>Health Education</li>
+            </ul>
+        </section>
+    </main>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+    <footer>
+        <p>&copy; 2023 eSwasthya Odisha</p>
+    </footer>
+</body>
+</html>
 
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
