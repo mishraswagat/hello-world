@@ -5,6 +5,66 @@
     <meta charset="UTF-8">
     <title>Welcome to eSwasthya Odisha</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #01547e;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffa500;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #01547e;
+        }
+
+        footer {
+            background-color: #01547e;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -41,4 +101,3 @@
     </footer>
 </body>
 </html>
-
