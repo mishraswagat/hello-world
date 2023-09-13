@@ -7,17 +7,25 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <style>
         body {
-            background-color: #f2f2f2;
+            background-color: #001f3f; /* Navy Blue */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #01547e;
+            background-color: #FFA500; /* Orange */
             color: #ffffff;
             padding: 20px 0;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px; /* Adjust the width as needed */
+            height: auto;
         }
 
         nav ul {
@@ -39,7 +47,7 @@
         }
 
         nav a:hover {
-            color: #ffa500;
+            color: #001f3f; /* Navy Blue */
         }
 
         main {
@@ -55,11 +63,11 @@
         }
 
         h1, h2 {
-            color: #01547e;
+            color: #FFA500; /* Orange */
         }
 
         footer {
-            background-color: #01547e;
+            background-color: #FFA500; /* Orange */
             color: #ffffff;
             text-align: center;
             padding: 10px 0;
@@ -68,7 +76,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to eSwasthya Odisha</h1>
+        <img src="logo.png" alt="eSwasthya Odisha Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
